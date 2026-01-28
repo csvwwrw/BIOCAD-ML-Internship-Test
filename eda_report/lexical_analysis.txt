@@ -1,0 +1,136 @@
+Vocabulary statistics
+	Total tokens: 616,503
+	Unique tokens: 29,041
+	Type-Token Ratio (TTR): 0.047
+	After stopword removal: 472,332
+
+Top 30 Terms (after stopwords)
+	tau                 :  3481
+	brain               :  3156
+	cells               :  2150
+	disease             :  2002
+	also                :  1995
+	protein             :  1939
+	mice                :  1849
+	patients            :  1719
+	may                 :  1658
+	microglia           :  1636
+	cognitive           :  1580
+	studies             :  1533
+	treatment           :  1515
+	clinical            :  1483
+	levels              :  1430
+	expression          :  1409
+	cell                :  1307
+	amyloid             :  1295
+	therapeutic         :  1250
+	effects             :  1217
+	neuronal            :  1196
+	proteins            :  1191
+	study               :  1132
+	potential           :  1127
+	drug                :  1121
+	activation          :  1096
+	genes               :  1062
+	including           :  1060
+	role                :  1044
+	associated          :  1034
+
+TF-IDF Top Terms
+        term    tfidf
+          ad 0.472012
+          aβ 0.200264
+       brain 0.174246
+         tau 0.155611
+     disease 0.113189
+       cells 0.110905
+     protein 0.101880
+   microglia 0.096889
+        mice 0.095527
+    patients 0.092871
+     amyloid 0.089377
+   cognitive 0.083872
+inflammatory 0.082387
+   treatment 0.081374
+        cell 0.079052
+    clinical 0.078673
+         bbb 0.078632
+     studies 0.076472
+  expression 0.075555
+      levels 0.069099
+        drug 0.068042
+          al 0.067210
+  associated 0.066532
+ therapeutic 0.065674
+    proteins 0.065221
+     effects 0.064685
+          et 0.064504
+  activation 0.063004
+   potential 0.060650
+       study 0.060636
+
+Top Bigrams
+	alzheimer disease             :  652
+	clinical trials               :  456
+	oxidative stress              :  354
+	tau pathology                 :  338
+	cognitive decline             :  331
+	neurodegenerative diseases    :  312
+	cognitive impairment          :  271
+	tau protein                   :  269
+	animal models                 :  264
+	disease progression           :  229
+	additional file               :  223
+	amyloid plaques               :  217
+	drug delivery                 :  215
+	mitochondrial dysfunction     :  208
+	gene expression               :  206
+	synaptic plasticity           :  191
+	mouse model                   :  182
+	risk factors                  :  179
+	immune cells                  :  177
+	fad mice                      :  176
+
+Top Trigrams
+	amyloid precursor protein     :  133
+	additional file table         :  107
+	central nervous system        :  101
+	mild cognitive impairment     :   83
+	candidate causal genes        :   82
+	reactive oxygen species       :   80
+	phase clinical trials         :   80
+	precursor protein app         :   79
+	cerebrospinal fluid csf       :   58
+	phase clinical trial          :   53
+	fig additional file           :   49
+	additional file fig           :   48
+	nervous system cns            :   47
+	additional file figure        :   46
+	oxygen species ros            :   45
+	positron emission tomography  :   45
+	blood-brain barrier bbb       :   43
+	food drug administration      :   42
+	neurofibrillary tangles nfts  :   42
+	jeffrey cummings reports      :   39
+
+Top Fourgrams
+	amyloid precursor protein app :   71
+	central nervous system cns    :   46
+	reactive oxygen species ros   :   45
+	jeffrey cummings reports relationship:   39
+	positron emission tomography pet:   36
+	mild cognitive impairment mci :   36
+	includes consulting advisory jeffrey:   35
+	consulting advisory jeffrey cummings:   35
+	advisory jeffrey cummings reports:   35
+	triggering receptor expressed myeloid:   34
+	receptor expressed myeloid cells:   34
+	food drug administration fda  :   23
+	app amyloid precursor protein :   23
+	fig additional file fig       :   23
+	patients mild cognitive impairment:   22
+	magnetic resonance imaging mri:   21
+	expressed myeloid cells trem2 :   20
+	buffer min buffer min         :   20
+	brain-derived neurotrophic factor bdnf:   19
+	alzheimer disease parkinson disease:   19

@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#4A90E2", "font": {"color": "black"}, "id": "tau", "label": "tau", "shape": "dot", "size": 50, "title": "tau (gene): 661 mentions"}, {"color": "#4A90E2", "font": {"color": "black"}, "id": "APP", "label": "APP", "shape": "dot", "size": 50, "title": "APP (gene): 626 mentions"}, {"color": "#4A90E2", "font": {"color": "black"}, "id": "TREM2", "label": "TREM2", "shape": "dot", "size": 50, "title": "TREM2 (gene): 324 mentions"}, {"color": "#4A90E2", "font": {"color": "black"}, "id": "AD [", "label": "AD [", "shape": "dot", "size": 50, "title": "AD [ (gene): 269 mentions"}, {"color": "#E8743B", "font": {"color": "black"}, "id": "amyloid", "label": "amyloid", "shape": "dot", "size": 50, "title": "amyloid (drug): 325 mentions"}, {"color": "#E8743B", "font": {"color": "black"}, "id": "APOE", "label": "APOE", "shape": "dot", "size": 50, "title": "APOE (drug): 233 mentions"}, {"color": "#E8743B", "font": {"color": "black"}, "id": "Tau", "label": "Tau", "shape": "dot", "size": 50, "title": "Tau (drug): 195 mentions"}, {"color": "#4A90E2", "font": {"color": "black"}, "id": "DAM", "label": "DAM", "shape": "dot", "size": 50, "title": "DAM (gene): 201 mentions"}, {"color": "#4A90E2", "font": {"color": "black"}, "id": "VDAC1", "label": "VDAC1", "shape": "dot", "size": 50, "title": "VDAC1 (gene): 197 mentions"}, {"color": "#4A90E2", "font": {"color": "black"}, "id": "GSK3", "label": "GSK3", "shape": "dot", "size": 50, "title": "GSK3 (gene): 185 mentions"}, {"color": "#E8743B", "font": {"color": "black"}, "id": "FAD", "label": "FAD", "shape": "dot", "size": 50, "title": "FAD (drug): 240 mentions"}, {"color": "#E8743B", "font": {"color": "black"}, "id": "glutamate", "label": "glutamate", "shape": "dot", "size": 50, "title": "glutamate (drug): 194 mentions"}, {"color": "#E8743B", "font": {"color": "black"}, "id": "glucose", "label": "glucose", "shape": "dot", "size": 50, "title": "glucose (drug): 186 mentions"}, {"color": "#E8743B", "font": {"color": "black"}, "id": "Ca", "label": "Ca", "shape": "dot", "size": 50, "title": "Ca (drug): 178 mentions"}, {"color": "#E8743B", "font": {"color": "black"}, "id": "NMDA", "label": "NMDA", "shape": "dot", "size": 50, "title": "NMDA (drug): 173 mentions"}, {"color": "#19A974", "font": {"color": "black"}, "id": "AD", "label": "AD", "shape": "dot", "size": 50, "title": "AD (disease): 2004 mentions"}, {"color": "#19A974", "font": {"color": "black"}, "id": "neuroinflammation", "label": "neuroinflammation", "shape": "dot", "size": 50, "title": "neuroinflammation (disease): 731 mentions"}, {"color": "#19A974", "font": {"color": "black"}, "id": "inflammation", "label": "inflammation", "shape": "dot", "size": 50, "title": "inflammation (disease): 536 mentions"}, {"color": "#19A974", "font": {"color": "black"}, "id": "dementia", "label": "dementia", "shape": "dot", "size": 50, "title": "dementia (disease): 434 mentions"}, {"color": "#19A974", "font": {"color": "black"}, "id": "neurodegeneration", "label": "neurodegeneration", "shape": "dot", "size": 50, "title": "neurodegeneration (disease): 338 mentions"}]);
+                  edges = new vis.DataSet([{"from": "tau", "title": "Weight: 4.1", "to": "APP", "value": 8.120886021092838}, {"from": "tau", "title": "Weight: 3.5", "to": "TREM2", "value": 7.052721049232323}, {"from": "tau", "title": "Weight: 3.8", "to": "AD [", "value": 7.522400231387125}, {"from": "tau", "title": "Weight: 10.0", "to": "amyloid", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "APOE", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "Tau", "value": 15}, {"from": "tau", "title": "Weight: 1.8", "to": "DAM", "value": 3.58351893845611}, {"from": "tau", "title": "Weight: 1.4", "to": "VDAC1", "value": 2.772588722239781}, {"from": "tau", "title": "Weight: 1.6", "to": "GSK3", "value": 3.2188758248682006}, {"from": "tau", "title": "Weight: 10.0", "to": "Ca", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "glutamate", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "NMDA", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "glucose", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "AD", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "dementia", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "neuroinflammation", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "neurodegeneration", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "inflammation", "value": 15}, {"from": "tau", "title": "Weight: 10.0", "to": "FAD", "value": 15}, {"from": "APP", "title": "Weight: 3.4", "to": "TREM2", "value": 6.802394763324311}, {"from": "APP", "title": "Weight: 3.7", "to": "AD [", "value": 7.475339236566737}, {"from": "APP", "title": "Weight: 10.0", "to": "amyloid", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "APOE", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "Tau", "value": 15}, {"from": "APP", "title": "Weight: 1.4", "to": "DAM", "value": 2.772588722239781}, {"from": "APP", "title": "Weight: 1.6", "to": "VDAC1", "value": 3.2188758248682006}, {"from": "APP", "title": "Weight: 1.6", "to": "GSK3", "value": 3.2188758248682006}, {"from": "APP", "title": "Weight: 10.0", "to": "AD", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "dementia", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "Ca", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "glucose", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "glutamate", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "neuroinflammation", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "neurodegeneration", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "inflammation", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "NMDA", "value": 15}, {"from": "APP", "title": "Weight: 10.0", "to": "FAD", "value": 15}, {"from": "TREM2", "title": "Weight: 3.0", "to": "AD [", "value": 6.089044875446846}, {"from": "TREM2", "title": "Weight: 10.0", "to": "amyloid", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "APOE", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "Tau", "value": 15}, {"from": "TREM2", "title": "Weight: 1.9", "to": "DAM", "value": 3.8918202981106265}, {"from": "TREM2", "title": "Weight: 10.0", "to": "glutamate", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "dementia", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "AD", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "neuroinflammation", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "neurodegeneration", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "inflammation", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "NMDA", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "Ca", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "glucose", "value": 15}, {"from": "TREM2", "title": "Weight: 10.0", "to": "FAD", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "amyloid", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "APOE", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "Tau", "value": 15}, {"from": "AD [", "title": "Weight: 1.8", "to": "DAM", "value": 3.58351893845611}, {"from": "AD [", "title": "Weight: 1.6", "to": "VDAC1", "value": 3.2188758248682006}, {"from": "AD [", "title": "Weight: 1.1", "to": "GSK3", "value": 2.1972245773362196}, {"from": "AD [", "title": "Weight: 10.0", "to": "Ca", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "glutamate", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "NMDA", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "glucose", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "AD", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "dementia", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "neuroinflammation", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "neurodegeneration", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "inflammation", "value": 15}, {"from": "AD [", "title": "Weight: 10.0", "to": "FAD", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "APOE", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "Tau", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "DAM", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "VDAC1", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "GSK3", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "Ca", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "glutamate", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "NMDA", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "glucose", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "amyloid", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "AD", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "dementia", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "neuroinflammation", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "neurodegeneration", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "inflammation", "value": 15}, {"from": "amyloid", "title": "Weight: 10.0", "to": "FAD", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "Tau", "value": 15}, {"from": "APOE", "title": "Weight: 9.1", "to": "DAM", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "VDAC1", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "Ca", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "APOE", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "neurodegeneration", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "dementia", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "AD", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "neuroinflammation", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "inflammation", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "glutamate", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "NMDA", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "glucose", "value": 15}, {"from": "APOE", "title": "Weight: 10.0", "to": "FAD", "value": 15}, {"from": "Tau", "title": "Weight: 2.1", "to": "DAM", "value": 4.19722457733622}, {"from": "Tau", "title": "Weight: 10.0", "to": "VDAC1", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "GSK3", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "Ca", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "glutamate", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "NMDA", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "glucose", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "Tau", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "AD", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "dementia", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "neuroinflammation", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "neurodegeneration", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "inflammation", "value": 15}, {"from": "Tau", "title": "Weight: 10.0", "to": "FAD", "value": 15}, {"from": "DAM", "title": "Weight: 9.0", "to": "glutamate", "value": 15}, {"from": "DAM", "title": "Weight: 10.0", "to": "dementia", "value": 15}, {"from": "DAM", "title": "Weight: 10.0", "to": "AD", "value": 15}, {"from": "DAM", "title": "Weight: 10.0", "to": "neuroinflammation", "value": 15}, {"from": "DAM", "title": "Weight: 10.0", "to": "neurodegeneration", "value": 15}, {"from": "DAM", "title": "Weight: 10.0", "to": "inflammation", "value": 15}, {"from": "DAM", "title": "Weight: 10.0", "to": "glucose", "value": 15}, {"from": "DAM", "title": "Weight: 7.0", "to": "Ca", "value": 14.0}, {"from": "DAM", "title": "Weight: 7.0", "to": "FAD", "value": 14.0}, {"from": "VDAC1", "title": "Weight: 10.0", "to": "Ca", "value": 15}, {"from": "VDAC1", "title": "Weight: 10.0", "to": "neurodegeneration", "value": 15}, {"from": "VDAC1", "title": "Weight: 10.0", "to": "dementia", "value": 15}, {"from": "VDAC1", "title": "Weight: 10.0", "to": "AD", "value": 15}, {"from": "VDAC1", "title": "Weight: 10.0", "to": "neuroinflammation", "value": 15}, {"from": "VDAC1", "title": "Weight: 10.0", "to": "inflammation", "value": 15}, {"from": "VDAC1", "title": "Weight: 10.0", "to": "glutamate", "value": 15}, {"from": "VDAC1", "title": "Weight: 10.0", "to": "glucose", "value": 15}, {"from": "VDAC1", "title": "Weight: 2.0", "to": "NMDA", "value": 4.0}, {"from": "VDAC1", "title": "Weight: 10.0", "to": "FAD", "value": 15}, {"from": "GSK3", "title": "Weight: 10.0", "to": "glucose", "value": 15}, {"from": "GSK3", "title": "Weight: 10.0", "to": "glutamate", "value": 15}, {"from": "GSK3", "title": "Weight: 10.0", "to": "FAD", "value": 15}, {"from": "GSK3", "title": "Weight: 10.0", "to": "AD", "value": 15}, {"from": "GSK3", "title": "Weight: 10.0", "to": "dementia", "value": 15}, {"from": "GSK3", "title": "Weight: 10.0", "to": "inflammation", "value": 15}, {"from": "GSK3", "title": "Weight: 10.0", "to": "neurodegeneration", "value": 15}, {"from": "GSK3", "title": "Weight: 10.0", "to": "neuroinflammation", "value": 15}, {"from": "GSK3", "title": "Weight: 3.0", "to": "NMDA", "value": 6.0}, {"from": "GSK3", "title": "Weight: 3.0", "to": "Ca", "value": 6.0}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

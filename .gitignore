@@ -1,2 +1,5 @@
 .env
 *.env
+lib
+*.log
+eda_report/bertopic_model
