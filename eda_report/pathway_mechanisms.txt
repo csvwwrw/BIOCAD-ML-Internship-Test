@@ -1,0 +1,109 @@
+
+Analyzed 20 genes
+Found 576 interactions
+Network edges: 82
+
+
+Interaction Types:
+  Activates           :  99 instances
+  Downregulates       :  95 instances
+  Upregulates         :  87 instances
+  Binds               :  86 instances
+  Inhibits            :  77 instances
+  Cleaves             :  64 instances
+  Regulates           :  47 instances
+  Phosphorylates      :  21 instances
+
+
+Key Interactions (Sample):
+amyloid --[phosphorylates]--> Tau
+  Context: The impaired mitochondrial function triggers energetic stress that promotes the disease-defining amyloid-β (Aβ) oligomers and hyper-phosphorylated Tau...
+
+tau --[regulates]--> Tau
+  Context: We initially sought to understand how human mutant tau influences Aβ neuropathology in the APP/PS1xTau22 transgenic model....
+
+tau --[upregulates]--> amyloid
+  Context: ( F ) Confocal micrographs of phospho-tau and axon-specific markers, AT8 and SMI312, respectively, show that the number of AT8 + puncta ( G ) and SMI3...
+
+tau --[binds]--> amyloid
+  Context: Phospho-tau epitopes associated with more mature tau lesions, as revealed by antibodies AT100 and PHF1, were also more abundant in the hippocampus and...
+
+tau --[binds]--> amyloid
+  Context: Given that the scope of tau pathology is tightly associated with the severity of neuron loss and cognitive symptoms in AD, we investigated whether amy...
+
+tau --[binds]--> Tau
+  Context: Given that the scope of tau pathology is tightly associated with the severity of neuron loss and cognitive symptoms in AD, we investigated whether amy...
+
+tau --[regulates]--> amyloid
+  Context: This phenotype was specific to the presence of tau pathology but was not influenced by amyloid coexpression....
+
+APP --[binds]--> tau
+  Context: As a result, the APP/PS1xTau22 mouse model does not exactly replicate the sequence, pace and interactions of Aβ and tau generation, deposition and cle...
+
+APP --[binds]--> amyloid
+  Context: As a result, the APP/PS1xTau22 mouse model does not exactly replicate the sequence, pace and interactions of Aβ and tau generation, deposition and cle...
+
+tau --[upregulates]--> IL-6
+  Context: AGE-tau was shown to generate high levels of ROS, resulting in nuclear translocation of p65/p50 dimers and consequently increased IL-6, APP, and Aβ pr...
+
+APP --[downregulates]--> tau
+  Context: In APP/PS-1 mice, forsythoside B (FTS•B) exerts an anti-NF-κB effect and reduces Aβ plaque formation, tau phosphorylation, and microglial activation, ...
+
+APOE --[downregulates]--> amyloid
+  Context: Genetic removal or reduction of mouse or human APOE3 and APOE4 in AD models reduces beta‐amyloid (Aβ) plaques....
+
+APOE --[downregulates]--> amyloid
+  Context: Our findings show that potent downregulation of CNS APOE with siRNAs, even after the onset of cellular changes, strikingly reduces amyloid pathology i...
+
+APOE --[downregulates]--> amyloid
+  Context: Our findings show that potent downregulation of CNS APOE with siRNAs, even after the onset of cellular changes, strikingly reduces amyloid pathology i...
+
+APOE --[downregulates]--> amyloid
+  Context: Compared to controls, silencing Apoe with di‐siRNA APOE reduced APP6E10 positive plaque burden (female: 86%, p < 0.0001; male: 70%, p = 0.0158) (Figur...
+
+APOE --[regulates]--> amyloid
+  Context: We injected (ICV) 9‐week‐old 5xFAD mice with 237 μg of di‐siRNA 56 APOE or di‐siRNA NTC (control) and measured brain Apoe expression, amyloid burden, ...
+
+APP --[cleaves]--> amyloid
+  Context: APP processing on the cell membrane produces α‐CTFs by a non‐amyloidogenic pathway, and β‐CTFs via an amyloidogenic pathway....
+
+APP --[downregulates]--> amyloid
+  Context: These results suggest that long‐term silencing of Apoe may decrease APP protein stability and may reduce the production of amyloid fragments via both ...
+
+APP --[regulates]--> PA
+  Context: Aβ, amyloid beta; APP, amyloid precursor protein; CTF, carboxy‐terminal fragment; di‐siRNA, divalent small interfering RNA; NTC, non‐targeting (vehicl...
+
+amyloid --[regulates]--> PA
+  Context: Aβ, amyloid beta; APP, amyloid precursor protein; CTF, carboxy‐terminal fragment; di‐siRNA, divalent small interfering RNA; NTC, non‐targeting (vehicl...
+
+APP --[inhibits]--> amyloid
+  Context: Mechanistically, our findings suggest that, when present, Apoe modulates APP levels, serves as a scaffold for plaque formation, and prevents immune‐me...
+
+APP --[cleaves]--> BACE1
+  Context: , 45 91
+The Apoe ‐dependent reduction in APP and amyloid CTFs we observed was surprising, particularly as there was no effect on the expression of APP...
+
+amyloid --[cleaves]--> BACE1
+  Context: , 45 91
+The Apoe ‐dependent reduction in APP and amyloid CTFs we observed was surprising, particularly as there was no effect on the expression of APP...
+
+ApoE --[binds]--> AD [
+  Context: ApoE4, which has been mentioned many times before, can also interact with mitochondria, reducing the mitochondrial membrane potential and causing mito...
+
+APP --[downregulates]--> amyloid
+  Context: When administered systemically to AD model (APP NL-G-F ) mice, Nb62-r-mAb reduced complement activation in brain, protected from synapse loss, reduced...
+
+APP --[downregulates]--> amyloid
+  Context: The work supports and extends our recent demonstration that treatment with the unmodified mAb 73D1 in 9-month-old APP 38 NL-G-F mice reduced brain com...
+
+APP --[upregulates]--> tau
+  Context: Additional studies have provided diverging roles for A 1 R. In a model using human neural cells, application of the selective A 1 R agonist R-PIA led ...
+
+APP --[binds]--> ApoE
+  Context: Generally, the early-onset form, called “familial”, is related to specific mutations in the genes encoding presenilin1 (PS1) and 2 (PS2) and amyloid p...
+
+BACE1 --[regulates]--> PA
+  Context: In rat hippocampal neurons, the drug (0.375 μg/mL) downregulated presenilin levels, increased α secretase while decreasing β secretase and BACE1 activ...
+
+tau --[inhibits]--> BACE1
+  Context: In a rat model of AD, apigenin (50 mg/kg) significantly reduced the hyperphosphorylation of tau levels in the hippocampus, decreasing the expression o...

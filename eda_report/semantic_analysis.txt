@@ -1,9 +1,12 @@
 Pairwise cosine similarities
-	Average pairwise similarity: 0.847
-	Std of similarities: 0.093
+	Average pairwise similarity: 0.835
+	Std of similarities: 0.100
 
-BERTopics found: 2
-   Topic  Count                                                     Name
-0     -1     23            -1_disease_neuroinflammation_diseases_amyloid
-1      0     20      0_alzheimer disease_dementia_alzheimer_therapeutics
-2      1     57  1_neurodegenerative_alzheimer_disease_neuroinflammation
+Optimal topics: 13 (silhouette: 0.319)
+BERTopics found:4
+   Topic  Count                                                      Name
+0     -1     21                 -1_alzheimer disease_alzheimer_aβ_amyloid
+1      0     51  0_alzheimer disease_alzheimer_dementia_neurodegenerative
+2      1     19                           1_alzheimer_aβ_amyloid_dementia
+3      2     12                         2_aβ_amyloid_microglia_microglial
+4      3     12     3_brain barrier_cell membrane_blood brain_endothelial

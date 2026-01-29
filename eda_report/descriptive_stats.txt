@@ -1,0 +1,36 @@
+Text Length Statistics (characters)
+                    mean   median           std     min       max
+Abstract     1521.956522   1450.0    495.874107   762.0    3405.0
+Intro        6552.321739   4438.0   6124.336651   883.0   39361.0
+Conclusion   6154.173913   3628.0   5779.434927   326.0   24273.0
+Full_text   54679.260870  50640.0  24516.262962  9441.0  157026.0
+
+Section Ratios (Intro/Full_text, Conclusion/Full_text)
+	Intro ratio: 12.88% ± 10.70%
+	Conclusion ratio: 12.47% ± 11.21%
+
+Year Distribution
+Year
+2020    14
+2021    17
+2022    14
+2023    18
+2024    21
+2025    31
+
+
+Top 10 Journals
+Journal
+Int J Mol Sci            17
+Alzheimers Dement         9
+Front Immunol             5
+Transl Neurodegener       4
+J Neuroinflammation       4
+Brain                     4
+J Prev Alzheimers Dis     4
+Int J Nanomedicine        3
+J Transl Med              3
+Nat Commun                2
+
+
+Mean Flesch Reading Ease: 26.8

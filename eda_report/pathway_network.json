@@ -1,0 +1,1246 @@
+{
+  "nodes": [
+    {
+      "id": "APP",
+      "mentions": 697
+    },
+    {
+      "id": "tau",
+      "mentions": 659
+    },
+    {
+      "id": "BDNF",
+      "mentions": 514
+    },
+    {
+      "id": "TREM2",
+      "mentions": 369
+    },
+    {
+      "id": "APOE",
+      "mentions": 326
+    },
+    {
+      "id": "ApoE",
+      "mentions": 296
+    },
+    {
+      "id": "amyloid",
+      "mentions": 272
+    },
+    {
+      "id": "AD [",
+      "mentions": 223
+    },
+    {
+      "id": "IL-6",
+      "mentions": 208
+    },
+    {
+      "id": "Tau",
+      "mentions": 195
+    },
+    {
+      "id": "VDAC1",
+      "mentions": 195
+    },
+    {
+      "id": "MST1",
+      "mentions": 189
+    },
+    {
+      "id": "BACE1",
+      "mentions": 188
+    },
+    {
+      "id": "TNF-\u03b1",
+      "mentions": 167
+    },
+    {
+      "id": "NLRP3",
+      "mentions": 163
+    },
+    {
+      "id": "SORL1",
+      "mentions": 157
+    },
+    {
+      "id": "insulin",
+      "mentions": 156
+    },
+    {
+      "id": "PA",
+      "mentions": 148
+    },
+    {
+      "id": "Tg",
+      "mentions": 137
+    },
+    {
+      "id": "TAS2R",
+      "mentions": 117
+    }
+  ],
+  "edges": [
+    {
+      "source": "APP",
+      "target": "tau",
+      "relations": [
+        "binds",
+        "downregulates",
+        "upregulates",
+        "inhibits",
+        "regulates",
+        "downregulates",
+        "downregulates",
+        "downregulates",
+        "phosphorylates",
+        "regulates",
+        "inhibits",
+        "phosphorylates",
+        "cleaves",
+        "activates",
+        "cleaves",
+        "inhibits",
+        "cleaves",
+        "phosphorylates",
+        "activates",
+        "phosphorylates",
+        "upregulates",
+        "phosphorylates",
+        "inhibits",
+        "activates",
+        "binds",
+        "binds",
+        "binds",
+        "regulates",
+        "phosphorylates",
+        "cleaves",
+        "upregulates",
+        "inhibits",
+        "inhibits",
+        "activates",
+        "activates",
+        "phosphorylates",
+        "phosphorylates",
+        "downregulates"
+      ],
+      "weight": 38
+    },
+    {
+      "source": "APP",
+      "target": "amyloid",
+      "relations": [
+        "binds",
+        "cleaves",
+        "downregulates",
+        "inhibits",
+        "downregulates",
+        "downregulates",
+        "activates",
+        "cleaves",
+        "inhibits",
+        "cleaves",
+        "upregulates",
+        "activates",
+        "cleaves",
+        "cleaves",
+        "cleaves",
+        "activates",
+        "inhibits",
+        "downregulates",
+        "inhibits",
+        "cleaves",
+        "activates",
+        "regulates",
+        "downregulates",
+        "inhibits",
+        "regulates",
+        "activates",
+        "downregulates",
+        "cleaves",
+        "activates",
+        "cleaves",
+        "cleaves",
+        "downregulates",
+        "upregulates",
+        "regulates",
+        "cleaves",
+        "inhibits",
+        "activates",
+        "activates",
+        "cleaves",
+        "downregulates"
+      ],
+      "weight": 40
+    },
+    {
+      "source": "APP",
+      "target": "PA",
+      "relations": [
+        "regulates",
+        "activates",
+        "upregulates"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "APP",
+      "target": "BACE1",
+      "relations": [
+        "cleaves",
+        "cleaves",
+        "cleaves",
+        "cleaves",
+        "activates",
+        "binds",
+        "binds",
+        "cleaves",
+        "upregulates",
+        "binds",
+        "cleaves",
+        "cleaves",
+        "cleaves",
+        "cleaves",
+        "cleaves",
+        "inhibits"
+      ],
+      "weight": 16
+    },
+    {
+      "source": "APP",
+      "target": "ApoE",
+      "relations": [
+        "binds",
+        "regulates",
+        "cleaves",
+        "inhibits",
+        "inhibits",
+        "activates",
+        "activates",
+        "cleaves"
+      ],
+      "weight": 8
+    },
+    {
+      "source": "APP",
+      "target": "Tg",
+      "relations": [
+        "cleaves",
+        "upregulates",
+        "activates",
+        "regulates",
+        "activates",
+        "phosphorylates"
+      ],
+      "weight": 6
+    },
+    {
+      "source": "APP",
+      "target": "TREM2",
+      "relations": [
+        "inhibits",
+        "downregulates"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "APP",
+      "target": "TNF-\u03b1",
+      "relations": [
+        "inhibits",
+        "inhibits",
+        "binds",
+        "binds",
+        "inhibits",
+        "binds",
+        "binds",
+        "inhibits",
+        "activates",
+        "activates",
+        "binds",
+        "regulates",
+        "cleaves",
+        "upregulates",
+        "downregulates"
+      ],
+      "weight": 15
+    },
+    {
+      "source": "APP",
+      "target": "NLRP3",
+      "relations": [
+        "inhibits",
+        "cleaves"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "APP",
+      "target": "insulin",
+      "relations": [
+        "regulates"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "APP",
+      "target": "Tau",
+      "relations": [
+        "binds",
+        "cleaves",
+        "activates",
+        "binds",
+        "regulates",
+        "cleaves",
+        "upregulates",
+        "downregulates",
+        "activates",
+        "regulates"
+      ],
+      "weight": 10
+    },
+    {
+      "source": "APP",
+      "target": "AD [",
+      "relations": [
+        "activates",
+        "cleaves",
+        "cleaves",
+        "binds",
+        "downregulates"
+      ],
+      "weight": 5
+    },
+    {
+      "source": "APP",
+      "target": "SORL1",
+      "relations": [
+        "cleaves"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "APP",
+      "target": "IL-6",
+      "relations": [
+        "activates"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "tau",
+      "target": "Tau",
+      "relations": [
+        "regulates",
+        "binds",
+        "regulates",
+        "downregulates",
+        "activates",
+        "binds",
+        "regulates",
+        "cleaves",
+        "upregulates",
+        "downregulates",
+        "activates",
+        "downregulates",
+        "phosphorylates",
+        "downregulates",
+        "binds",
+        "inhibits",
+        "activates"
+      ],
+      "weight": 17
+    },
+    {
+      "source": "tau",
+      "target": "amyloid",
+      "relations": [
+        "upregulates",
+        "binds",
+        "binds",
+        "regulates",
+        "binds",
+        "inhibits",
+        "downregulates",
+        "regulates",
+        "upregulates",
+        "downregulates",
+        "downregulates",
+        "inhibits",
+        "activates",
+        "activates",
+        "upregulates",
+        "cleaves",
+        "downregulates"
+      ],
+      "weight": 17
+    },
+    {
+      "source": "tau",
+      "target": "IL-6",
+      "relations": [
+        "upregulates",
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "downregulates",
+        "activates",
+        "upregulates",
+        "regulates",
+        "upregulates",
+        "downregulates"
+      ],
+      "weight": 12
+    },
+    {
+      "source": "tau",
+      "target": "BACE1",
+      "relations": [
+        "inhibits",
+        "activates"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "tau",
+      "target": "Tg",
+      "relations": [
+        "downregulates",
+        "downregulates",
+        "downregulates",
+        "regulates",
+        "upregulates",
+        "inhibits",
+        "downregulates"
+      ],
+      "weight": 7
+    },
+    {
+      "source": "tau",
+      "target": "PA",
+      "relations": [
+        "activates",
+        "regulates",
+        "downregulates",
+        "activates",
+        "activates",
+        "binds"
+      ],
+      "weight": 6
+    },
+    {
+      "source": "tau",
+      "target": "ApoE",
+      "relations": [
+        "binds",
+        "activates",
+        "activates",
+        "binds"
+      ],
+      "weight": 4
+    },
+    {
+      "source": "tau",
+      "target": "NLRP3",
+      "relations": [
+        "regulates",
+        "upregulates",
+        "phosphorylates",
+        "cleaves",
+        "activates",
+        "inhibits",
+        "activates",
+        "activates",
+        "activates"
+      ],
+      "weight": 9
+    },
+    {
+      "source": "tau",
+      "target": "AD [",
+      "relations": [
+        "phosphorylates",
+        "activates",
+        "activates",
+        "inhibits",
+        "activates",
+        "activates",
+        "regulates",
+        "regulates",
+        "activates",
+        "binds",
+        "activates",
+        "cleaves",
+        "downregulates",
+        "cleaves"
+      ],
+      "weight": 14
+    },
+    {
+      "source": "tau",
+      "target": "TNF-\u03b1",
+      "relations": [
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "downregulates",
+        "regulates",
+        "upregulates",
+        "downregulates",
+        "inhibits",
+        "activates",
+        "activates",
+        "binds",
+        "regulates",
+        "cleaves",
+        "upregulates",
+        "downregulates"
+      ],
+      "weight": 17
+    },
+    {
+      "source": "tau",
+      "target": "insulin",
+      "relations": [
+        "inhibits",
+        "inhibits"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "tau",
+      "target": "BDNF",
+      "relations": [
+        "downregulates",
+        "downregulates",
+        "inhibits",
+        "binds",
+        "inhibits",
+        "upregulates"
+      ],
+      "weight": 6
+    },
+    {
+      "source": "BDNF",
+      "target": "PA",
+      "relations": [
+        "upregulates",
+        "downregulates",
+        "regulates"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "BDNF",
+      "target": "TNF-\u03b1",
+      "relations": [
+        "inhibits",
+        "inhibits",
+        "binds",
+        "binds",
+        "inhibits",
+        "binds",
+        "binds"
+      ],
+      "weight": 7
+    },
+    {
+      "source": "BDNF",
+      "target": "Tau",
+      "relations": [
+        "binds",
+        "binds",
+        "upregulates",
+        "activates",
+        "regulates"
+      ],
+      "weight": 5
+    },
+    {
+      "source": "BDNF",
+      "target": "AD [",
+      "relations": [
+        "activates",
+        "downregulates",
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "downregulates",
+        "binds"
+      ],
+      "weight": 7
+    },
+    {
+      "source": "BDNF",
+      "target": "amyloid",
+      "relations": [
+        "regulates",
+        "cleaves",
+        "downregulates",
+        "activates",
+        "downregulates"
+      ],
+      "weight": 5
+    },
+    {
+      "source": "BDNF",
+      "target": "SORL1",
+      "relations": [
+        "downregulates",
+        "cleaves"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "TREM2",
+      "target": "amyloid",
+      "relations": [
+        "downregulates",
+        "upregulates",
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "binds",
+        "cleaves",
+        "activates",
+        "activates",
+        "downregulates",
+        "binds",
+        "activates",
+        "regulates",
+        "upregulates",
+        "downregulates",
+        "activates",
+        "inhibits",
+        "activates",
+        "activates",
+        "upregulates",
+        "downregulates",
+        "downregulates",
+        "binds",
+        "activates",
+        "downregulates"
+      ],
+      "weight": 25
+    },
+    {
+      "source": "TREM2",
+      "target": "BACE1",
+      "relations": [
+        "activates",
+        "activates",
+        "binds",
+        "binds"
+      ],
+      "weight": 4
+    },
+    {
+      "source": "TREM2",
+      "target": "Tg",
+      "relations": [
+        "upregulates",
+        "upregulates"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "TREM2",
+      "target": "ApoE",
+      "relations": [
+        "downregulates",
+        "activates",
+        "activates",
+        "binds"
+      ],
+      "weight": 4
+    },
+    {
+      "source": "TREM2",
+      "target": "IL-6",
+      "relations": [
+        "binds",
+        "upregulates",
+        "regulates",
+        "upregulates",
+        "downregulates"
+      ],
+      "weight": 5
+    },
+    {
+      "source": "TREM2",
+      "target": "APOE",
+      "relations": [
+        "cleaves",
+        "binds",
+        "binds"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "TREM2",
+      "target": "TNF-\u03b1",
+      "relations": [
+        "regulates",
+        "upregulates",
+        "downregulates"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "TREM2",
+      "target": "AD [",
+      "relations": [
+        "upregulates",
+        "binds",
+        "binds",
+        "binds",
+        "upregulates"
+      ],
+      "weight": 5
+    },
+    {
+      "source": "TREM2",
+      "target": "PA",
+      "relations": [
+        "activates",
+        "activates"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "APOE",
+      "target": "amyloid",
+      "relations": [
+        "downregulates",
+        "downregulates",
+        "downregulates",
+        "downregulates",
+        "regulates",
+        "binds",
+        "upregulates",
+        "activates",
+        "downregulates",
+        "downregulates",
+        "binds",
+        "phosphorylates"
+      ],
+      "weight": 12
+    },
+    {
+      "source": "APOE",
+      "target": "AD [",
+      "relations": [
+        "binds",
+        "binds",
+        "inhibits"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "APOE",
+      "target": "PA",
+      "relations": [
+        "binds",
+        "binds"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "APOE",
+      "target": "ApoE",
+      "relations": [
+        "downregulates",
+        "downregulates",
+        "downregulates",
+        "upregulates"
+      ],
+      "weight": 4
+    },
+    {
+      "source": "APOE",
+      "target": "SORL1",
+      "relations": [
+        "binds"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "ApoE",
+      "target": "AD [",
+      "relations": [
+        "binds",
+        "activates",
+        "upregulates",
+        "cleaves",
+        "activates",
+        "upregulates"
+      ],
+      "weight": 6
+    },
+    {
+      "source": "ApoE",
+      "target": "amyloid",
+      "relations": [
+        "binds",
+        "binds",
+        "upregulates",
+        "activates",
+        "activates",
+        "activates",
+        "binds",
+        "binds",
+        "activates",
+        "cleaves",
+        "upregulates",
+        "activates",
+        "binds"
+      ],
+      "weight": 13
+    },
+    {
+      "source": "ApoE",
+      "target": "SORL1",
+      "relations": [
+        "downregulates"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "ApoE",
+      "target": "IL-6",
+      "relations": [
+        "activates",
+        "upregulates",
+        "activates",
+        "upregulates",
+        "upregulates"
+      ],
+      "weight": 5
+    },
+    {
+      "source": "ApoE",
+      "target": "TNF-\u03b1",
+      "relations": [
+        "activates",
+        "upregulates",
+        "activates",
+        "upregulates"
+      ],
+      "weight": 4
+    },
+    {
+      "source": "ApoE",
+      "target": "insulin",
+      "relations": [
+        "activates",
+        "binds",
+        "inhibits",
+        "inhibits",
+        "inhibits",
+        "downregulates",
+        "inhibits",
+        "upregulates",
+        "inhibits",
+        "inhibits"
+      ],
+      "weight": 10
+    },
+    {
+      "source": "ApoE",
+      "target": "Tau",
+      "relations": [
+        "downregulates",
+        "activates",
+        "regulates"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "ApoE",
+      "target": "NLRP3",
+      "relations": [
+        "binds"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "amyloid",
+      "target": "Tau",
+      "relations": [
+        "phosphorylates",
+        "binds",
+        "phosphorylates",
+        "cleaves",
+        "activates",
+        "activates",
+        "binds",
+        "regulates",
+        "cleaves",
+        "upregulates",
+        "downregulates",
+        "downregulates",
+        "phosphorylates",
+        "downregulates",
+        "activates",
+        "regulates"
+      ],
+      "weight": 16
+    },
+    {
+      "source": "amyloid",
+      "target": "PA",
+      "relations": [
+        "regulates",
+        "cleaves"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "amyloid",
+      "target": "BACE1",
+      "relations": [
+        "cleaves",
+        "activates",
+        "binds",
+        "binds",
+        "cleaves",
+        "cleaves",
+        "cleaves",
+        "cleaves",
+        "inhibits",
+        "cleaves"
+      ],
+      "weight": 10
+    },
+    {
+      "source": "amyloid",
+      "target": "TNF-\u03b1",
+      "relations": [
+        "inhibits",
+        "binds",
+        "inhibits",
+        "binds",
+        "binds",
+        "inhibits",
+        "binds",
+        "binds",
+        "inhibits",
+        "activates",
+        "activates",
+        "activates",
+        "binds",
+        "regulates",
+        "cleaves",
+        "upregulates",
+        "downregulates"
+      ],
+      "weight": 17
+    },
+    {
+      "source": "amyloid",
+      "target": "NLRP3",
+      "relations": [
+        "cleaves"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "amyloid",
+      "target": "AD [",
+      "relations": [
+        "binds",
+        "phosphorylates",
+        "binds",
+        "upregulates",
+        "activates",
+        "cleaves",
+        "activates",
+        "inhibits",
+        "cleaves",
+        "binds",
+        "binds"
+      ],
+      "weight": 11
+    },
+    {
+      "source": "amyloid",
+      "target": "insulin",
+      "relations": [
+        "binds"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "amyloid",
+      "target": "Tg",
+      "relations": [
+        "phosphorylates"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "AD [",
+      "target": "Tau",
+      "relations": [
+        "downregulates",
+        "upregulates",
+        "downregulates"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "IL-6",
+      "target": "Tg",
+      "relations": [
+        "upregulates"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "IL-6",
+      "target": "TNF-\u03b1",
+      "relations": [
+        "activates",
+        "regulates",
+        "downregulates"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "IL-6",
+      "target": "NLRP3",
+      "relations": [
+        "inhibits"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "Tau",
+      "target": "Tg",
+      "relations": [
+        "upregulates",
+        "upregulates",
+        "upregulates",
+        "phosphorylates",
+        "upregulates"
+      ],
+      "weight": 5
+    },
+    {
+      "source": "Tau",
+      "target": "TNF-\u03b1",
+      "relations": [
+        "regulates",
+        "upregulates",
+        "downregulates",
+        "inhibits",
+        "activates",
+        "phosphorylates",
+        "phosphorylates"
+      ],
+      "weight": 7
+    },
+    {
+      "source": "Tau",
+      "target": "PA",
+      "relations": [
+        "activates",
+        "activates"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "VDAC1",
+      "target": "TNF-\u03b1",
+      "relations": [
+        "inhibits",
+        "inhibits"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "VDAC1",
+      "target": "NLRP3",
+      "relations": [
+        "inhibits",
+        "inhibits",
+        "inhibits",
+        "activates"
+      ],
+      "weight": 4
+    },
+    {
+      "source": "MST1",
+      "target": "PA",
+      "relations": [
+        "upregulates"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "BACE1",
+      "target": "PA",
+      "relations": [
+        "regulates"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "BACE1",
+      "target": "Tg",
+      "relations": [
+        "binds",
+        "inhibits"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "BACE1",
+      "target": "insulin",
+      "relations": [
+        "inhibits",
+        "activates",
+        "binds",
+        "binds"
+      ],
+      "weight": 4
+    },
+    {
+      "source": "BACE1",
+      "target": "TNF-\u03b1",
+      "relations": [
+        "inhibits",
+        "binds",
+        "binds",
+        "inhibits",
+        "binds",
+        "binds"
+      ],
+      "weight": 6
+    },
+    {
+      "source": "TNF-\u03b1",
+      "target": "Tg",
+      "relations": [
+        "inhibits",
+        "inhibits"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "TNF-\u03b1",
+      "target": "NLRP3",
+      "relations": [
+        "inhibits",
+        "activates",
+        "activates",
+        "cleaves",
+        "downregulates",
+        "downregulates"
+      ],
+      "weight": 6
+    },
+    {
+      "source": "TNF-\u03b1",
+      "target": "insulin",
+      "relations": [
+        "activates"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "NLRP3",
+      "target": "Tg",
+      "relations": [
+        "downregulates",
+        "activates",
+        "downregulates",
+        "inhibits",
+        "downregulates",
+        "inhibits",
+        "inhibits"
+      ],
+      "weight": 7
+    },
+    {
+      "source": "insulin",
+      "target": "PA",
+      "relations": [
+        "activates",
+        "cleaves"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "PA",
+      "target": "Tg",
+      "relations": [
+        "regulates",
+        "upregulates",
+        "upregulates",
+        "upregulates",
+        "inhibits",
+        "inhibits",
+        "cleaves",
+        "upregulates",
+        "downregulates",
+        "inhibits",
+        "inhibits",
+        "upregulates",
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "upregulates",
+        "regulates",
+        "upregulates",
+        "regulates",
+        "downregulates",
+        "regulates",
+        "upregulates",
+        "inhibits",
+        "upregulates",
+        "downregulates",
+        "upregulates",
+        "downregulates",
+        "inhibits",
+        "upregulates",
+        "inhibits",
+        "inhibits",
+        "downregulates",
+        "inhibits",
+        "regulates",
+        "upregulates",
+        "upregulates",
+        "downregulates",
+        "inhibits",
+        "downregulates",
+        "regulates",
+        "upregulates",
+        "binds"
+      ],
+      "weight": 49
+    }
+  ],
+  "statistics": {
+    "phosphorylates": 21,
+    "regulates": 47,
+    "upregulates": 87,
+    "binds": 86,
+    "downregulates": 95,
+    "cleaves": 64,
+    "inhibits": 77,
+    "activates": 99
+  }
+}

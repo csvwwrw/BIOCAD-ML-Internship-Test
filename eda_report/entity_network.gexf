@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-01-28">
+  <meta lastmodifieddate="2026-01-29">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -12,834 +12,915 @@
       <attribute id="1" title="size" type="long" />
     </attributes>
     <nodes>
-      <node id="tau" label="tau">
-        <attvalues>
-          <attvalue for="0" value="gene" />
-          <attvalue for="1" value="661" />
-        </attvalues>
-      </node>
       <node id="APP" label="APP">
         <attvalues>
           <attvalue for="0" value="gene" />
-          <attvalue for="1" value="626" />
+          <attvalue for="1" value="697" />
+        </attvalues>
+      </node>
+      <node id="tau" label="tau">
+        <attvalues>
+          <attvalue for="0" value="gene" />
+          <attvalue for="1" value="659" />
+        </attvalues>
+      </node>
+      <node id="BDNF" label="BDNF">
+        <attvalues>
+          <attvalue for="0" value="gene" />
+          <attvalue for="1" value="514" />
         </attvalues>
       </node>
       <node id="TREM2" label="TREM2">
         <attvalues>
           <attvalue for="0" value="gene" />
-          <attvalue for="1" value="324" />
-        </attvalues>
-      </node>
-      <node id="AD [" label="AD [">
-        <attvalues>
-          <attvalue for="0" value="gene" />
-          <attvalue for="1" value="269" />
-        </attvalues>
-      </node>
-      <node id="amyloid" label="amyloid">
-        <attvalues>
-          <attvalue for="0" value="drug" />
-          <attvalue for="1" value="325" />
+          <attvalue for="1" value="369" />
         </attvalues>
       </node>
       <node id="APOE" label="APOE">
         <attvalues>
           <attvalue for="0" value="drug" />
-          <attvalue for="1" value="233" />
+          <attvalue for="1" value="344" />
+        </attvalues>
+      </node>
+      <node id="ApoE" label="ApoE">
+        <attvalues>
+          <attvalue for="0" value="gene" />
+          <attvalue for="1" value="296" />
+        </attvalues>
+      </node>
+      <node id="amyloid" label="amyloid">
+        <attvalues>
+          <attvalue for="0" value="drug" />
+          <attvalue for="1" value="370" />
+        </attvalues>
+      </node>
+      <node id="AD [" label="AD [">
+        <attvalues>
+          <attvalue for="0" value="gene" />
+          <attvalue for="1" value="223" />
+        </attvalues>
+      </node>
+      <node id="IL-6" label="IL-6">
+        <attvalues>
+          <attvalue for="0" value="gene" />
+          <attvalue for="1" value="208" />
         </attvalues>
       </node>
       <node id="Tau" label="Tau">
         <attvalues>
-          <attvalue for="0" value="drug" />
+          <attvalue for="0" value="gene" />
           <attvalue for="1" value="195" />
-        </attvalues>
-      </node>
-      <node id="DAM" label="DAM">
-        <attvalues>
-          <attvalue for="0" value="gene" />
-          <attvalue for="1" value="201" />
-        </attvalues>
-      </node>
-      <node id="VDAC1" label="VDAC1">
-        <attvalues>
-          <attvalue for="0" value="gene" />
-          <attvalue for="1" value="197" />
-        </attvalues>
-      </node>
-      <node id="GSK3" label="GSK3">
-        <attvalues>
-          <attvalue for="0" value="gene" />
-          <attvalue for="1" value="185" />
         </attvalues>
       </node>
       <node id="FAD" label="FAD">
         <attvalues>
           <attvalue for="0" value="drug" />
-          <attvalue for="1" value="240" />
+          <attvalue for="1" value="269" />
+        </attvalues>
+      </node>
+      <node id="cholesterol" label="cholesterol">
+        <attvalues>
+          <attvalue for="0" value="drug" />
+          <attvalue for="1" value="199" />
         </attvalues>
       </node>
       <node id="glutamate" label="glutamate">
         <attvalues>
           <attvalue for="0" value="drug" />
-          <attvalue for="1" value="194" />
+          <attvalue for="1" value="188" />
         </attvalues>
       </node>
-      <node id="glucose" label="glucose">
+      <node id="NFTs" label="NFTs">
         <attvalues>
           <attvalue for="0" value="drug" />
-          <attvalue for="1" value="186" />
+          <attvalue for="1" value="176" />
         </attvalues>
       </node>
-      <node id="Ca" label="Ca">
+      <node id="ApoE4" label="ApoE4">
         <attvalues>
           <attvalue for="0" value="drug" />
-          <attvalue for="1" value="178" />
+          <attvalue for="1" value="176" />
         </attvalues>
       </node>
-      <node id="NMDA" label="NMDA">
+      <node id="iron" label="iron">
         <attvalues>
           <attvalue for="0" value="drug" />
-          <attvalue for="1" value="173" />
+          <attvalue for="1" value="175" />
         </attvalues>
       </node>
       <node id="AD" label="AD">
         <attvalues>
           <attvalue for="0" value="disease" />
-          <attvalue for="1" value="2004" />
+          <attvalue for="1" value="2051" />
         </attvalues>
       </node>
       <node id="neuroinflammation" label="neuroinflammation">
         <attvalues>
           <attvalue for="0" value="disease" />
-          <attvalue for="1" value="731" />
+          <attvalue for="1" value="804" />
         </attvalues>
       </node>
       <node id="inflammation" label="inflammation">
         <attvalues>
           <attvalue for="0" value="disease" />
-          <attvalue for="1" value="536" />
+          <attvalue for="1" value="609" />
         </attvalues>
       </node>
       <node id="dementia" label="dementia">
         <attvalues>
           <attvalue for="0" value="disease" />
-          <attvalue for="1" value="434" />
+          <attvalue for="1" value="502" />
         </attvalues>
       </node>
       <node id="neurodegeneration" label="neurodegeneration">
         <attvalues>
           <attvalue for="0" value="disease" />
-          <attvalue for="1" value="338" />
+          <attvalue for="1" value="367" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge source="tau" target="APP" id="0" weight="4.060443010546419">
+      <edge source="APP" target="tau" id="0" weight="4.04305126783455">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="tau" target="TREM2" id="1" weight="3.5263605246161616">
+      <edge source="APP" target="BDNF" id="1" weight="3.091042453358316">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="tau" target="AD [" id="2" weight="3.7612001156935624">
+      <edge source="APP" target="TREM2" id="2" weight="3.4965075614664802">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="tau" target="amyloid" id="3" weight="10.0">
+      <edge source="APP" target="APOE" id="3" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="tau" target="APOE" id="4" weight="10.0">
+      <edge source="APP" target="ApoE" id="4" weight="3.258096538021482">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="tau" target="Tau" id="5" weight="10.0">
+      <edge source="APP" target="amyloid" id="5" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="tau" target="DAM" id="6" weight="1.791759469228055">
+      <edge source="APP" target="AD [" id="6" weight="3.5263605246161616">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="tau" target="VDAC1" id="7" weight="1.3862943611198906">
+      <edge source="APP" target="IL-6" id="7" weight="3.2188758248682006">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="tau" target="GSK3" id="8" weight="1.6094379124341003">
+      <edge source="APP" target="Tau" id="8" weight="3.713572066704308">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="tau" target="Ca" id="9" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="tau" target="glutamate" id="10" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="tau" target="NMDA" id="11" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="tau" target="glucose" id="12" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="tau" target="AD" id="13" weight="10.0">
+      <edge source="APP" target="AD" id="9" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="tau" target="dementia" id="14" weight="10.0">
+      <edge source="APP" target="neuroinflammation" id="10" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="tau" target="neuroinflammation" id="15" weight="10.0">
+      <edge source="APP" target="neurodegeneration" id="11" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="tau" target="neurodegeneration" id="16" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="tau" target="inflammation" id="17" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="tau" target="FAD" id="18" weight="10.0">
+      <edge source="APP" target="cholesterol" id="12" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="APP" target="TREM2" id="19" weight="3.4011973816621555">
+      <edge source="APP" target="dementia" id="13" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="NFTs" id="14" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="glutamate" id="15" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="iron" id="16" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="inflammation" id="17" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="FAD" id="18" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="ApoE4" id="19" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="BDNF" id="20" weight="3.091042453358316">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APP" target="AD [" id="20" weight="3.7376696182833684">
+      <edge source="tau" target="TREM2" id="21" weight="3.6888794541139363">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APP" target="amyloid" id="21" weight="10.0">
+      <edge source="tau" target="APOE" id="22" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APP" target="APOE" id="22" weight="10.0">
+      <edge source="tau" target="ApoE" id="23" weight="3.295836866004329">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APP" target="Tau" id="23" weight="10.0">
+      <edge source="tau" target="amyloid" id="24" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APP" target="DAM" id="24" weight="1.3862943611198906">
+      <edge source="tau" target="AD [" id="25" weight="3.713572066704308">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APP" target="VDAC1" id="25" weight="1.6094379124341003">
+      <edge source="tau" target="IL-6" id="26" weight="3.4657359027997265">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APP" target="GSK3" id="26" weight="1.6094379124341003">
+      <edge source="tau" target="Tau" id="27" weight="3.912023005428146">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APP" target="AD" id="27" weight="10.0">
+      <edge source="tau" target="AD" id="28" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="APP" target="dementia" id="28" weight="10.0">
+      <edge source="tau" target="neuroinflammation" id="29" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="APP" target="Ca" id="29" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="APP" target="glucose" id="30" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="APP" target="glutamate" id="31" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="APP" target="neuroinflammation" id="32" weight="10.0">
+      <edge source="tau" target="neurodegeneration" id="30" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="APP" target="neurodegeneration" id="33" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="APP" target="inflammation" id="34" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="APP" target="NMDA" id="35" weight="10.0">
+      <edge source="tau" target="NFTs" id="31" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="APP" target="FAD" id="36" weight="10.0">
+      <edge source="tau" target="glutamate" id="32" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="TREM2" target="AD [" id="37" weight="3.044522437723423">
+      <edge source="tau" target="cholesterol" id="33" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="iron" id="34" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="dementia" id="35" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="inflammation" id="36" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="ApoE4" id="37" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="FAD" id="38" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="TREM2" id="39" weight="2.6390573296152584">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="TREM2" target="amyloid" id="38" weight="10.0">
+      <edge source="BDNF" target="APOE" id="40" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="TREM2" target="APOE" id="39" weight="10.0">
+      <edge source="BDNF" target="ApoE" id="41" weight="2.1972245773362196">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="TREM2" target="Tau" id="40" weight="10.0">
+      <edge source="BDNF" target="amyloid" id="42" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="TREM2" target="DAM" id="41" weight="1.9459101490553132">
+      <edge source="BDNF" target="AD [" id="43" weight="2.5649493574615367">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="TREM2" target="glutamate" id="42" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="TREM2" target="dementia" id="43" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="TREM2" target="AD" id="44" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="TREM2" target="neuroinflammation" id="45" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="TREM2" target="neurodegeneration" id="46" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="TREM2" target="inflammation" id="47" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="TREM2" target="NMDA" id="48" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="TREM2" target="Ca" id="49" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="TREM2" target="glucose" id="50" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="TREM2" target="FAD" id="51" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="AD [" target="amyloid" id="52" weight="10.0">
+      <edge source="BDNF" target="IL-6" id="44" weight="2.833213344056216">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="AD [" target="APOE" id="53" weight="10.0">
+      <edge source="BDNF" target="Tau" id="45" weight="2.8903717578961645">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="AD [" target="Tau" id="54" weight="10.0">
+      <edge source="BDNF" target="NFTs" id="46" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="glutamate" id="47" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="cholesterol" id="48" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="iron" id="49" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="dementia" id="50" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="AD" id="51" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="inflammation" id="52" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="neuroinflammation" id="53" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="neurodegeneration" id="54" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="FAD" id="55" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="ApoE4" id="56" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="APOE" id="57" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="AD [" target="DAM" id="55" weight="1.791759469228055">
+      <edge source="TREM2" target="ApoE" id="58" weight="3.044522437723423">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="AD [" target="VDAC1" id="56" weight="1.6094379124341003">
+      <edge source="TREM2" target="amyloid" id="59" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="AD [" target="GSK3" id="57" weight="1.0986122886681098">
+      <edge source="TREM2" target="AD [" id="60" weight="3.044522437723423">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="AD [" target="Ca" id="58" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="AD [" target="glutamate" id="59" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="AD [" target="NMDA" id="60" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="AD [" target="glucose" id="61" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="AD [" target="AD" id="62" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="AD [" target="dementia" id="63" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="AD [" target="neuroinflammation" id="64" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="AD [" target="neurodegeneration" id="65" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="AD [" target="inflammation" id="66" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="AD [" target="FAD" id="67" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="APOE" id="68" weight="10.0">
+      <edge source="TREM2" target="IL-6" id="61" weight="2.8903717578961645">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="amyloid" target="Tau" id="69" weight="10.0">
+      <edge source="TREM2" target="Tau" id="62" weight="3.2188758248682006">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="amyloid" target="DAM" id="70" weight="10.0">
+      <edge source="TREM2" target="NFTs" id="63" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="glutamate" id="64" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="cholesterol" id="65" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="iron" id="66" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="dementia" id="67" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="AD" id="68" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="inflammation" id="69" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="neuroinflammation" id="70" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="neurodegeneration" id="71" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="FAD" id="72" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="ApoE4" id="73" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="ApoE" id="74" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="amyloid" target="VDAC1" id="71" weight="10.0">
+      <edge source="APOE" target="amyloid" id="75" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="amyloid" target="GSK3" id="72" weight="10.0">
+      <edge source="APOE" target="AD [" id="76" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="amyloid" target="Ca" id="73" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="glutamate" id="74" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="NMDA" id="75" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="glucose" id="76" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="amyloid" id="77" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="AD" id="78" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="dementia" id="79" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="neuroinflammation" id="80" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="neurodegeneration" id="81" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="inflammation" id="82" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="amyloid" target="FAD" id="83" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="Tau" id="84" weight="10.0">
+      <edge source="APOE" target="IL-6" id="77" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APOE" target="DAM" id="85" weight="9.098612288668111">
+      <edge source="APOE" target="Tau" id="78" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APOE" target="VDAC1" id="86" weight="10.0">
+      <edge source="APOE" target="AD" id="79" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="neuroinflammation" id="80" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="neurodegeneration" id="81" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="APOE" id="82" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="cholesterol" id="83" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="dementia" id="84" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="NFTs" id="85" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="glutamate" id="86" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="iron" id="87" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="inflammation" id="88" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="FAD" id="89" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="ApoE4" id="90" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="amyloid" id="91" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="APOE" target="Ca" id="87" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="APOE" id="88" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="neurodegeneration" id="89" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="dementia" id="90" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="AD" id="91" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="neuroinflammation" id="92" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="inflammation" id="93" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="glutamate" id="94" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="NMDA" id="95" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="glucose" id="96" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="FAD" id="97" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="APOE" target="GSK3" id="98" weight="1.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="Tau" target="DAM" id="99" weight="2.09861228866811">
+      <edge source="ApoE" target="AD [" id="92" weight="2.9444389791664403">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="Tau" target="VDAC1" id="100" weight="10.0">
+      <edge source="ApoE" target="IL-6" id="93" weight="2.772588722239781">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="Tau" target="GSK3" id="101" weight="10.0">
+      <edge source="ApoE" target="Tau" id="94" weight="2.9444389791664403">
         <attvalues>
           <attvalue for="2" value="gene-gene" />
         </attvalues>
       </edge>
-      <edge source="Tau" target="Ca" id="102" weight="10.0">
+      <edge source="ApoE" target="NFTs" id="95" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="Tau" target="glutamate" id="103" weight="10.0">
+      <edge source="ApoE" target="glutamate" id="96" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="Tau" target="NMDA" id="104" weight="10.0">
+      <edge source="ApoE" target="cholesterol" id="97" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="Tau" target="glucose" id="105" weight="10.0">
+      <edge source="ApoE" target="iron" id="98" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="Tau" target="Tau" id="106" weight="10.0">
+      <edge source="ApoE" target="dementia" id="99" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="AD" id="100" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="inflammation" id="101" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="neuroinflammation" id="102" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="neurodegeneration" id="103" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="FAD" id="104" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="Tau" target="AD" id="107" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="Tau" target="dementia" id="108" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="Tau" target="neuroinflammation" id="109" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="Tau" target="neurodegeneration" id="110" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="Tau" target="inflammation" id="111" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="Tau" target="FAD" id="112" weight="10.0">
+      <edge source="ApoE" target="ApoE4" id="105" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="DAM" target="glutamate" id="113" weight="9.0">
+      <edge source="amyloid" target="AD [" id="106" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-gene" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="IL-6" id="107" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-gene" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="Tau" id="108" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-gene" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="amyloid" id="109" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="DAM" target="dementia" id="114" weight="10.0">
+      <edge source="amyloid" target="AD" id="110" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="DAM" target="AD" id="115" weight="10.0">
+      <edge source="amyloid" target="neuroinflammation" id="111" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="DAM" target="neuroinflammation" id="116" weight="10.0">
+      <edge source="amyloid" target="neurodegeneration" id="112" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="DAM" target="neurodegeneration" id="117" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="DAM" target="inflammation" id="118" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="DAM" target="glucose" id="119" weight="10.0">
+      <edge source="amyloid" target="cholesterol" id="113" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="DAM" target="Ca" id="120" weight="7.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="DAM" target="FAD" id="121" weight="7.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="VDAC1" target="Ca" id="122" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="VDAC1" target="neurodegeneration" id="123" weight="10.0">
+      <edge source="amyloid" target="dementia" id="114" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="VDAC1" target="dementia" id="124" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="VDAC1" target="AD" id="125" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="VDAC1" target="neuroinflammation" id="126" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="VDAC1" target="inflammation" id="127" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="VDAC1" target="glutamate" id="128" weight="10.0">
+      <edge source="amyloid" target="glutamate" id="115" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="VDAC1" target="glucose" id="129" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="VDAC1" target="NMDA" id="130" weight="2.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="VDAC1" target="FAD" id="131" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="GSK3" target="glucose" id="132" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="GSK3" target="glutamate" id="133" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="GSK3" target="FAD" id="134" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-drug" />
-        </attvalues>
-      </edge>
-      <edge source="GSK3" target="AD" id="135" weight="10.0">
+      <edge source="amyloid" target="inflammation" id="116" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-disease" />
         </attvalues>
       </edge>
-      <edge source="GSK3" target="dementia" id="136" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="GSK3" target="inflammation" id="137" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="GSK3" target="neurodegeneration" id="138" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="GSK3" target="neuroinflammation" id="139" weight="10.0">
-        <attvalues>
-          <attvalue for="2" value="gene-disease" />
-        </attvalues>
-      </edge>
-      <edge source="GSK3" target="NMDA" id="140" weight="3.0">
+      <edge source="amyloid" target="FAD" id="117" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>
       </edge>
-      <edge source="GSK3" target="Ca" id="141" weight="3.0">
+      <edge source="amyloid" target="NFTs" id="118" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="iron" id="119" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="ApoE4" id="120" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="IL-6" id="121" weight="2.8903717578961645">
+        <attvalues>
+          <attvalue for="2" value="gene-gene" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="Tau" id="122" weight="3.367295829986474">
+        <attvalues>
+          <attvalue for="2" value="gene-gene" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="NFTs" id="123" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="glutamate" id="124" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="cholesterol" id="125" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="iron" id="126" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="dementia" id="127" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="AD" id="128" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="inflammation" id="129" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="neuroinflammation" id="130" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="neurodegeneration" id="131" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="ApoE4" id="132" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="FAD" id="133" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="Tau" id="134" weight="3.091042453358316">
+        <attvalues>
+          <attvalue for="2" value="gene-gene" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="AD" id="135" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="neuroinflammation" id="136" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="glutamate" id="137" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="dementia" id="138" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="neurodegeneration" id="139" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="inflammation" id="140" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="NFTs" id="141" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="ApoE4" id="142" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="FAD" id="143" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="iron" id="144" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="cholesterol" id="145" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="AD" id="146" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="neuroinflammation" id="147" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="neurodegeneration" id="148" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="cholesterol" id="149" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="dementia" id="150" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="NFTs" id="151" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="glutamate" id="152" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="iron" id="153" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="inflammation" id="154" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-disease" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="ApoE4" id="155" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="gene-drug" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="FAD" id="156" weight="10.0">
         <attvalues>
           <attvalue for="2" value="gene-drug" />
         </attvalues>

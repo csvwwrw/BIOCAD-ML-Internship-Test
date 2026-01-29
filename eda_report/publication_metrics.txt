@@ -1,2 +1,2 @@
-Average citations per article: 0.76
+Average citations per article: 1.13
 Average co-author density:    0.02

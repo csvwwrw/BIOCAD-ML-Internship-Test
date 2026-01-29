@@ -1,0 +1,51 @@
+# ===== Core Dependencies =====
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# ===== NLP & Text Processing =====
+sentence-transformers>=2.2.0
+nltk>=3.8.0
+rank-bm25>=0.2.2
+textstat>=0.7.3
+
+# ===== Vector Store =====
+faiss-cpu>=1.7.4
+# Для GPU: faiss-gpu>=1.7.4
+
+# ===== Biomedical & Scientific =====
+biopython>=1.81
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# ===== Topic Modeling & Clustering =====
+bertopic>=0.15.0
+umap-learn>=0.5.3
+
+# ===== Visualization =====
+matplotlib>=3.7.0
+seaborn>=0.12.0
+wordcloud>=1.9.2
+plotly>=5.14.0
+networkx>=3.1
+pyvis>=0.3.2
+
+# ===== LLM Providers =====
+openai>=1.0.0
+anthropic>=0.18.0
+requests>=2.31.0
+
+# ===== Web Application =====
+streamlit>=1.28.0
+
+# ===== Configuration =====
+python-dotenv>=1.0.0
+
+# ===== Optional: Biomedical NER (требует дополнительной установки) =====
+# spacy>=3.6.0
+# scispacy>=0.5.3
+
+# После установки spacy и scispacy, установите модели:
+# python -m spacy download en_core_web_sm
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bionlp13cg_md-0.5.4.tar.gz
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz

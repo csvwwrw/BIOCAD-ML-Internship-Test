@@ -1,0 +1,32 @@
+
+Analyzed 30 genes/proteins
+Contexts analyzed: 1500 sentences
+
+Top 20 Drug Targets:
+Gene                 Score    Class      Mentions   Key Indicators
+insulin              24.4     High       156        receptor, signaling, enzyme
+PA                   18.6     High       148        agonist, inhibitor, protease
+TREM2                17.4     High       369        receptor, signaling, kinase
+BDNF                 16.6     High       514        signaling, kinase, receptor
+TNF-α                12.6     Medium     167        inhibitor, receptor, signaling
+IL-10                12.0     Medium     86         signaling, receptor, inhibitor
+GLP-1                10.0     Medium     100        agonist, receptor, inhibitor
+AD [                 9.8      Medium     223        signaling, inhibitor, enzyme
+TAS2R                9.6      Medium     117        signaling, therapeutic, channel
+SORL1                9.0      Medium     157        enzyme, receptor, signaling
+BACE1                8.6      Medium     188        enzyme, therapeutic, receptor
+NLRP3                7.8      Medium     163        signaling, receptor, therapeutic
+IL-4                 6.2      Medium     87         receptor, signaling, enzyme
+C1q                  6.0      Medium     84         receptor, protease, signaling
+VDAC1                5.0      Medium     195        channel, kinase, therapeutic
+IL-6                 5.0      Medium     208        receptor, inhibitor, signaling
+MST1                 4.0      Low        189        signaling, kinase, therapeutic
+ApoE                 3.2      Low        296        receptor, therapeutic, modulator
+APOE                 3.2      Low        326        therapeutic, inhibitor, transcription factor
+APOE4                2.8      Low        100        transcription factor, signaling, therapeutic
+
+
+Druggability Class Distribution:
+  Low       :  14 genes ( 46.7%)
+  Medium    :  12 genes ( 40.0%)
+  High      :   4 genes ( 13.3%)

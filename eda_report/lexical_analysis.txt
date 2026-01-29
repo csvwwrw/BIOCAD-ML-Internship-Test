@@ -1,136 +1,136 @@
 Vocabulary statistics
-	Total tokens: 616,503
-	Unique tokens: 29,041
-	Type-Token Ratio (TTR): 0.047
-	After stopword removal: 472,332
+	Total tokens: 727,401
+	Unique tokens: 32,405
+	Type-Token Ratio (TTR): 0.045
+	After stopword removal: 555,867
 
 Top 30 Terms (after stopwords)
-	tau                 :  3481
-	brain               :  3156
-	cells               :  2150
-	disease             :  2002
-	also                :  1995
-	protein             :  1939
-	mice                :  1849
-	patients            :  1719
-	may                 :  1658
-	microglia           :  1636
-	cognitive           :  1580
-	studies             :  1533
-	treatment           :  1515
-	clinical            :  1483
-	levels              :  1430
-	expression          :  1409
-	cell                :  1307
-	amyloid             :  1295
-	therapeutic         :  1250
-	effects             :  1217
-	neuronal            :  1196
-	proteins            :  1191
-	study               :  1132
-	potential           :  1127
-	drug                :  1121
-	activation          :  1096
-	genes               :  1062
-	including           :  1060
-	role                :  1044
-	associated          :  1034
+	brain               :  3657
+	tau                 :  3280
+	mice                :  2822
+	cells               :  2752
+	also                :  2264
+	protein             :  2248
+	disease             :  2135
+	microglia           :  2049
+	treatment           :  1919
+	expression          :  1882
+	levels              :  1807
+	cognitive           :  1804
+	patients            :  1801
+	studies             :  1756
+	clinical            :  1694
+	cell                :  1646
+	using               :  1599
+	may                 :  1594
+	study               :  1511
+	fig                 :  1451
+	amyloid             :  1445
+	effects             :  1396
+	data                :  1301
+	proteins            :  1292
+	figure              :  1281
+	potential           :  1256
+	therapeutic         :  1254
+	drug                :  1248
+	neuronal            :  1203
+	genes               :  1183
 
 TF-IDF Top Terms
         term    tfidf
-          ad 0.472012
-          aβ 0.200264
-       brain 0.174246
-         tau 0.155611
-     disease 0.113189
-       cells 0.110905
-     protein 0.101880
-   microglia 0.096889
-        mice 0.095527
-    patients 0.092871
-     amyloid 0.089377
-   cognitive 0.083872
-inflammatory 0.082387
-   treatment 0.081374
-        cell 0.079052
-    clinical 0.078673
-         bbb 0.078632
-     studies 0.076472
-  expression 0.075555
-      levels 0.069099
-        drug 0.068042
-          al 0.067210
-  associated 0.066532
- therapeutic 0.065674
-    proteins 0.065221
-     effects 0.064685
-          et 0.064504
-  activation 0.063004
-   potential 0.060650
-       study 0.060636
+          ad 0.425778
+          aβ 0.188401
+       brain 0.176849
+         tau 0.137482
+       cells 0.117387
+        mice 0.108089
+   microglia 0.102292
+     disease 0.099692
+     protein 0.097163
+   treatment 0.088323
+    patients 0.087579
+          al 0.087153
+     amyloid 0.085477
+          et 0.084556
+    clinical 0.083404
+         fig 0.081902
+        cell 0.080322
+     studies 0.078573
+inflammatory 0.078130
+   cognitive 0.076892
+  expression 0.074491
+        drug 0.072022
+       study 0.071212
+      levels 0.069559
+      figure 0.068887
+       using 0.068043
+     effects 0.062463
+    proteins 0.059385
+  associated 0.059228
+          il 0.057917
 
 Top Bigrams
-	alzheimer disease             :  652
-	clinical trials               :  456
-	oxidative stress              :  354
-	tau pathology                 :  338
-	cognitive decline             :  331
-	neurodegenerative diseases    :  312
-	cognitive impairment          :  271
-	tau protein                   :  269
-	animal models                 :  264
-	disease progression           :  229
-	additional file               :  223
-	amyloid plaques               :  217
-	drug delivery                 :  215
-	mitochondrial dysfunction     :  208
-	gene expression               :  206
-	synaptic plasticity           :  191
-	mouse model                   :  182
-	risk factors                  :  179
-	immune cells                  :  177
-	fad mice                      :  176
+	alzheimer disease             :  717
+	clinical trials               :  449
+	oxidative stress              :  415
+	cognitive decline             :  360
+	tau pathology                 :  313
+	neurodegenerative diseases    :  311
+	cognitive impairment          :  290
+	amyloid plaques               :  250
+	tau protein                   :  248
+	animal models                 :  243
+	drug delivery                 :  242
+	gene expression               :  237
+	mouse model                   :  235
+	disease progression           :  225
+	mitochondrial dysfunction     :  210
+	transgenic mice               :  195
+	synaptic plasticity           :  193
+	brain regions                 :  192
+	risk factors                  :  190
+	cognitive function            :  188
 
 Top Trigrams
-	amyloid precursor protein     :  133
-	additional file table         :  107
-	central nervous system        :  101
-	mild cognitive impairment     :   83
-	candidate causal genes        :   82
-	reactive oxygen species       :   80
-	phase clinical trials         :   80
-	precursor protein app         :   79
-	cerebrospinal fluid csf       :   58
-	phase clinical trial          :   53
-	fig additional file           :   49
+	amyloid precursor protein     :  124
+	central nervous system        :   92
+	mild cognitive impairment     :   89
+	reactive oxygen species       :   87
+	additional file table         :   86
+	candidate causal genes        :   80
+	precursor protein app         :   73
+	thermo fisher scientific      :   71
+	phase clinical trial          :   71
+	extended data fig             :   71
+	phase clinical trials         :   61
+	data presented mean           :   58
+	cerebrospinal fluid csf       :   55
+	positron emission tomography  :   54
+	oxygen species ros            :   48
 	additional file fig           :   48
-	nervous system cns            :   47
-	additional file figure        :   46
-	oxygen species ros            :   45
-	positron emission tomography  :   45
-	blood-brain barrier bbb       :   43
-	food drug administration      :   42
-	neurofibrillary tangles nfts  :   42
-	jeffrey cummings reports      :   39
+	receptor expressed myeloid    :   47
+	expressed myeloid cells       :   47
+	nervous system cns            :   46
+	compared control group        :   46
 
 Top Fourgrams
-	amyloid precursor protein app :   71
-	central nervous system cns    :   46
-	reactive oxygen species ros   :   45
-	jeffrey cummings reports relationship:   39
+	amyloid precursor protein app :   66
+	reactive oxygen species ros   :   46
+	triggering receptor expressed myeloid:   45
+	receptor expressed myeloid cells:   45
+	central nervous system cns    :   45
+	mild cognitive impairment mci :   44
 	positron emission tomography pet:   36
-	mild cognitive impairment mci :   36
-	includes consulting advisory jeffrey:   35
-	consulting advisory jeffrey cummings:   35
-	advisory jeffrey cummings reports:   35
-	triggering receptor expressed myeloid:   34
-	receptor expressed myeloid cells:   34
+	fig extended data fig         :   35
+	time spent target quadrant    :   30
+	data expressed mean sem       :   30
+	expressed myeloid cells trem2 :   29
+	provided source data file     :   25
+	source data provided source   :   24
+	data provided source data     :   24
+	app amyloid precursor protein :   24
 	food drug administration fda  :   23
-	app amyloid precursor protein :   23
+	supporting information supporting information:   23
 	fig additional file fig       :   23
-	patients mild cognitive impairment:   22
-	magnetic resonance imaging mri:   21
-	expressed myeloid cells trem2 :   20
+	magnetic resonance imaging mri:   22
 	buffer min buffer min         :   20
-	brain-derived neurotrophic factor bdnf:   19
-	alzheimer disease parkinson disease:   19

@@ -1,16 +1,15 @@
-Average paragraph length: 688 chars (±765)
-Median paragraph length: 522 chars
-Recommended chunk size: 500-1000 tokens (~2000-4000 chars)
-Average sentences per article: 344
-Average chunks per article: 30.1
-Total chunks in corpus: 3011
-Median chunks per article: 30
+Average paragraph length: 699 chars (±749)
+Median paragraph length: 538 chars
+Average sentences per article: 367
+Average chunks per article: 30.9
+Total chunks in corpus: 3550
+Median chunks per article: 29
 Query: What are potential targets for Alzheimer's disease treatment?
-	Top-5 avg BM25 score: 13.39
-	Best match score: 14.29
+	Top-5 avg BM25 score: 13.36
+	Best match score: 13.72
 Query: Are the targets druggable with small molecules, biologics, or other modalities?
-	Top-5 avg BM25 score: 18.83
-	Best match score: 19.77
+	Top-5 avg BM25 score: 19.91
+	Best match score: 20.77
 Query: What additional studies are needed to advance these targets?
-	Top-5 avg BM25 score: 13.41
-	Best match score: 13.95
+	Top-5 avg BM25 score: 15.30
+	Best match score: 16.59

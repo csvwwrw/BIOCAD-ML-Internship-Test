@@ -1,0 +1,611 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-29">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="relations" type="string" />
+      <attribute id="2" title="primary_relation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="count" type="long" />
+    </attributes>
+    <nodes>
+      <node id="APP" label="APP">
+        <attvalues>
+          <attvalue for="0" value="697" />
+        </attvalues>
+      </node>
+      <node id="tau" label="tau">
+        <attvalues>
+          <attvalue for="0" value="659" />
+        </attvalues>
+      </node>
+      <node id="BDNF" label="BDNF">
+        <attvalues>
+          <attvalue for="0" value="514" />
+        </attvalues>
+      </node>
+      <node id="TREM2" label="TREM2">
+        <attvalues>
+          <attvalue for="0" value="369" />
+        </attvalues>
+      </node>
+      <node id="APOE" label="APOE">
+        <attvalues>
+          <attvalue for="0" value="326" />
+        </attvalues>
+      </node>
+      <node id="ApoE" label="ApoE">
+        <attvalues>
+          <attvalue for="0" value="296" />
+        </attvalues>
+      </node>
+      <node id="amyloid" label="amyloid">
+        <attvalues>
+          <attvalue for="0" value="272" />
+        </attvalues>
+      </node>
+      <node id="AD [" label="AD [">
+        <attvalues>
+          <attvalue for="0" value="223" />
+        </attvalues>
+      </node>
+      <node id="IL-6" label="IL-6">
+        <attvalues>
+          <attvalue for="0" value="208" />
+        </attvalues>
+      </node>
+      <node id="Tau" label="Tau">
+        <attvalues>
+          <attvalue for="0" value="195" />
+        </attvalues>
+      </node>
+      <node id="VDAC1" label="VDAC1">
+        <attvalues>
+          <attvalue for="0" value="195" />
+        </attvalues>
+      </node>
+      <node id="MST1" label="MST1">
+        <attvalues>
+          <attvalue for="0" value="189" />
+        </attvalues>
+      </node>
+      <node id="BACE1" label="BACE1">
+        <attvalues>
+          <attvalue for="0" value="188" />
+        </attvalues>
+      </node>
+      <node id="TNF-α" label="TNF-α">
+        <attvalues>
+          <attvalue for="0" value="167" />
+        </attvalues>
+      </node>
+      <node id="NLRP3" label="NLRP3">
+        <attvalues>
+          <attvalue for="0" value="163" />
+        </attvalues>
+      </node>
+      <node id="SORL1" label="SORL1">
+        <attvalues>
+          <attvalue for="0" value="157" />
+        </attvalues>
+      </node>
+      <node id="insulin" label="insulin">
+        <attvalues>
+          <attvalue for="0" value="156" />
+        </attvalues>
+      </node>
+      <node id="PA" label="PA">
+        <attvalues>
+          <attvalue for="0" value="148" />
+        </attvalues>
+      </node>
+      <node id="Tg" label="Tg">
+        <attvalues>
+          <attvalue for="0" value="137" />
+        </attvalues>
+      </node>
+      <node id="TAS2R" label="TAS2R">
+        <attvalues>
+          <attvalue for="0" value="117" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="APP" target="tau" id="0" weight="38">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;inhibits&quot;, &quot;regulates&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;phosphorylates&quot;, &quot;regulates&quot;, &quot;inhibits&quot;, &quot;phosphorylates&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;cleaves&quot;, &quot;inhibits&quot;, &quot;cleaves&quot;, &quot;phosphorylates&quot;, &quot;activates&quot;, &quot;phosphorylates&quot;, &quot;upregulates&quot;, &quot;phosphorylates&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;regulates&quot;, &quot;phosphorylates&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;inhibits&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;phosphorylates&quot;, &quot;phosphorylates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="amyloid" id="1" weight="40">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;cleaves&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;activates&quot;, &quot;cleaves&quot;, &quot;inhibits&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;activates&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;inhibits&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;regulates&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;regulates&quot;, &quot;activates&quot;, &quot;downregulates&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;regulates&quot;, &quot;cleaves&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;cleaves&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="PA" id="2" weight="3">
+        <attvalues>
+          <attvalue for="1" value="[&quot;regulates&quot;, &quot;activates&quot;, &quot;upregulates&quot;]" />
+          <attvalue for="2" value="regulates" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="BACE1" id="3" weight="16">
+        <attvalues>
+          <attvalue for="1" value="[&quot;cleaves&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;binds&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;inhibits&quot;]" />
+          <attvalue for="2" value="cleaves" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="ApoE" id="4" weight="8">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;regulates&quot;, &quot;cleaves&quot;, &quot;inhibits&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;cleaves&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="Tg" id="5" weight="6">
+        <attvalues>
+          <attvalue for="1" value="[&quot;cleaves&quot;, &quot;upregulates&quot;, &quot;activates&quot;, &quot;regulates&quot;, &quot;activates&quot;, &quot;phosphorylates&quot;]" />
+          <attvalue for="2" value="cleaves" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="TREM2" id="6" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="TNF-α" id="7" weight="15">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;inhibits&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;regulates&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="NLRP3" id="8" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;cleaves&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="insulin" id="9" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;regulates&quot;]" />
+          <attvalue for="2" value="regulates" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="Tau" id="10" weight="10">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;regulates&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;activates&quot;, &quot;regulates&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="AD [" id="11" weight="5">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;binds&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="SORL1" id="12" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;cleaves&quot;]" />
+          <attvalue for="2" value="cleaves" />
+        </attvalues>
+      </edge>
+      <edge source="APP" target="IL-6" id="13" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="Tau" id="14" weight="17">
+        <attvalues>
+          <attvalue for="1" value="[&quot;regulates&quot;, &quot;binds&quot;, &quot;regulates&quot;, &quot;downregulates&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;regulates&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;activates&quot;, &quot;downregulates&quot;, &quot;phosphorylates&quot;, &quot;downregulates&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;activates&quot;]" />
+          <attvalue for="2" value="regulates" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="amyloid" id="15" weight="17">
+        <attvalues>
+          <attvalue for="1" value="[&quot;upregulates&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;regulates&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;downregulates&quot;, &quot;regulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;upregulates&quot;, &quot;cleaves&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="upregulates" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="IL-6" id="16" weight="12">
+        <attvalues>
+          <attvalue for="1" value="[&quot;upregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;activates&quot;, &quot;upregulates&quot;, &quot;regulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="upregulates" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="BACE1" id="17" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;activates&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="Tg" id="18" weight="7">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;regulates&quot;, &quot;upregulates&quot;, &quot;inhibits&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="PA" id="19" weight="6">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;regulates&quot;, &quot;downregulates&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="ApoE" id="20" weight="4">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="NLRP3" id="21" weight="9">
+        <attvalues>
+          <attvalue for="1" value="[&quot;regulates&quot;, &quot;upregulates&quot;, &quot;phosphorylates&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;activates&quot;]" />
+          <attvalue for="2" value="regulates" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="AD [" id="22" weight="14">
+        <attvalues>
+          <attvalue for="1" value="[&quot;phosphorylates&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;regulates&quot;, &quot;regulates&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;activates&quot;, &quot;cleaves&quot;, &quot;downregulates&quot;, &quot;cleaves&quot;]" />
+          <attvalue for="2" value="phosphorylates" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="TNF-α" id="23" weight="17">
+        <attvalues>
+          <attvalue for="1" value="[&quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;regulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;regulates&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="upregulates" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="insulin" id="24" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;inhibits&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="tau" target="BDNF" id="25" weight="6">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;upregulates&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="PA" id="26" weight="3">
+        <attvalues>
+          <attvalue for="1" value="[&quot;upregulates&quot;, &quot;downregulates&quot;, &quot;regulates&quot;]" />
+          <attvalue for="2" value="upregulates" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="TNF-α" id="27" weight="7">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;inhibits&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;binds&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="Tau" id="28" weight="5">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;binds&quot;, &quot;upregulates&quot;, &quot;activates&quot;, &quot;regulates&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="AD [" id="29" weight="7">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="amyloid" id="30" weight="5">
+        <attvalues>
+          <attvalue for="1" value="[&quot;regulates&quot;, &quot;cleaves&quot;, &quot;downregulates&quot;, &quot;activates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="regulates" />
+        </attvalues>
+      </edge>
+      <edge source="BDNF" target="SORL1" id="31" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;, &quot;cleaves&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="amyloid" id="32" weight="25">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;, &quot;upregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;binds&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;downregulates&quot;, &quot;binds&quot;, &quot;activates&quot;, &quot;regulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;activates&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;binds&quot;, &quot;activates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="BACE1" id="33" weight="4">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="Tg" id="34" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;upregulates&quot;, &quot;upregulates&quot;]" />
+          <attvalue for="2" value="upregulates" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="ApoE" id="35" weight="4">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="IL-6" id="36" weight="5">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;upregulates&quot;, &quot;regulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="APOE" id="37" weight="3">
+        <attvalues>
+          <attvalue for="1" value="[&quot;cleaves&quot;, &quot;binds&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="cleaves" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="TNF-α" id="38" weight="3">
+        <attvalues>
+          <attvalue for="1" value="[&quot;regulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="regulates" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="AD [" id="39" weight="5">
+        <attvalues>
+          <attvalue for="1" value="[&quot;upregulates&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;upregulates&quot;]" />
+          <attvalue for="2" value="upregulates" />
+        </attvalues>
+      </edge>
+      <edge source="TREM2" target="PA" id="40" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;activates&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="amyloid" id="41" weight="12">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;regulates&quot;, &quot;binds&quot;, &quot;upregulates&quot;, &quot;activates&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;binds&quot;, &quot;phosphorylates&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="AD [" id="42" weight="3">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;binds&quot;, &quot;inhibits&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="PA" id="43" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="ApoE" id="44" weight="4">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="APOE" target="SORL1" id="45" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="AD [" id="46" weight="6">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;activates&quot;, &quot;upregulates&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;upregulates&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="amyloid" id="47" weight="13">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;binds&quot;, &quot;upregulates&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;activates&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;activates&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="SORL1" id="48" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="IL-6" id="49" weight="5">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;upregulates&quot;, &quot;activates&quot;, &quot;upregulates&quot;, &quot;upregulates&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="TNF-α" id="50" weight="4">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;upregulates&quot;, &quot;activates&quot;, &quot;upregulates&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="insulin" id="51" weight="10">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;inhibits&quot;, &quot;inhibits&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;upregulates&quot;, &quot;inhibits&quot;, &quot;inhibits&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="Tau" id="52" weight="3">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;, &quot;activates&quot;, &quot;regulates&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="ApoE" target="NLRP3" id="53" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="Tau" id="54" weight="16">
+        <attvalues>
+          <attvalue for="1" value="[&quot;phosphorylates&quot;, &quot;binds&quot;, &quot;phosphorylates&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;regulates&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;, &quot;phosphorylates&quot;, &quot;downregulates&quot;, &quot;activates&quot;, &quot;regulates&quot;]" />
+          <attvalue for="2" value="phosphorylates" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="PA" id="55" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;regulates&quot;, &quot;cleaves&quot;]" />
+          <attvalue for="2" value="regulates" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="BACE1" id="56" weight="10">
+        <attvalues>
+          <attvalue for="1" value="[&quot;cleaves&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;cleaves&quot;, &quot;inhibits&quot;, &quot;cleaves&quot;]" />
+          <attvalue for="2" value="cleaves" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="TNF-α" id="57" weight="17">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;regulates&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="NLRP3" id="58" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;cleaves&quot;]" />
+          <attvalue for="2" value="cleaves" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="AD [" id="59" weight="11">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;phosphorylates&quot;, &quot;binds&quot;, &quot;upregulates&quot;, &quot;activates&quot;, &quot;cleaves&quot;, &quot;activates&quot;, &quot;inhibits&quot;, &quot;cleaves&quot;, &quot;binds&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="insulin" id="60" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="amyloid" target="Tg" id="61" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;phosphorylates&quot;]" />
+          <attvalue for="2" value="phosphorylates" />
+        </attvalues>
+      </edge>
+      <edge source="AD [" target="Tau" id="62" weight="3">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="Tg" id="63" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;upregulates&quot;]" />
+          <attvalue for="2" value="upregulates" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="TNF-α" id="64" weight="3">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;regulates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="IL-6" target="NLRP3" id="65" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="Tg" id="66" weight="5">
+        <attvalues>
+          <attvalue for="1" value="[&quot;upregulates&quot;, &quot;upregulates&quot;, &quot;upregulates&quot;, &quot;phosphorylates&quot;, &quot;upregulates&quot;]" />
+          <attvalue for="2" value="upregulates" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="TNF-α" id="67" weight="7">
+        <attvalues>
+          <attvalue for="1" value="[&quot;regulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;activates&quot;, &quot;phosphorylates&quot;, &quot;phosphorylates&quot;]" />
+          <attvalue for="2" value="regulates" />
+        </attvalues>
+      </edge>
+      <edge source="Tau" target="PA" id="68" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;activates&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="VDAC1" target="TNF-α" id="69" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;inhibits&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="VDAC1" target="NLRP3" id="70" weight="4">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;inhibits&quot;, &quot;inhibits&quot;, &quot;activates&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="MST1" target="PA" id="71" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;upregulates&quot;]" />
+          <attvalue for="2" value="upregulates" />
+        </attvalues>
+      </edge>
+      <edge source="BACE1" target="PA" id="72" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;regulates&quot;]" />
+          <attvalue for="2" value="regulates" />
+        </attvalues>
+      </edge>
+      <edge source="BACE1" target="Tg" id="73" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;binds&quot;, &quot;inhibits&quot;]" />
+          <attvalue for="2" value="binds" />
+        </attvalues>
+      </edge>
+      <edge source="BACE1" target="insulin" id="74" weight="4">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;activates&quot;, &quot;binds&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="BACE1" target="TNF-α" id="75" weight="6">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;binds&quot;, &quot;binds&quot;, &quot;inhibits&quot;, &quot;binds&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="TNF-α" target="Tg" id="76" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;inhibits&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="TNF-α" target="NLRP3" id="77" weight="6">
+        <attvalues>
+          <attvalue for="1" value="[&quot;inhibits&quot;, &quot;activates&quot;, &quot;activates&quot;, &quot;cleaves&quot;, &quot;downregulates&quot;, &quot;downregulates&quot;]" />
+          <attvalue for="2" value="inhibits" />
+        </attvalues>
+      </edge>
+      <edge source="TNF-α" target="insulin" id="78" weight="1">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="NLRP3" target="Tg" id="79" weight="7">
+        <attvalues>
+          <attvalue for="1" value="[&quot;downregulates&quot;, &quot;activates&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;inhibits&quot;]" />
+          <attvalue for="2" value="downregulates" />
+        </attvalues>
+      </edge>
+      <edge source="insulin" target="PA" id="80" weight="2">
+        <attvalues>
+          <attvalue for="1" value="[&quot;activates&quot;, &quot;cleaves&quot;]" />
+          <attvalue for="2" value="activates" />
+        </attvalues>
+      </edge>
+      <edge source="PA" target="Tg" id="81" weight="49">
+        <attvalues>
+          <attvalue for="1" value="[&quot;regulates&quot;, &quot;upregulates&quot;, &quot;upregulates&quot;, &quot;upregulates&quot;, &quot;inhibits&quot;, &quot;inhibits&quot;, &quot;cleaves&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;inhibits&quot;, &quot;upregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;upregulates&quot;, &quot;regulates&quot;, &quot;upregulates&quot;, &quot;regulates&quot;, &quot;downregulates&quot;, &quot;regulates&quot;, &quot;upregulates&quot;, &quot;inhibits&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;upregulates&quot;, &quot;inhibits&quot;, &quot;inhibits&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;regulates&quot;, &quot;upregulates&quot;, &quot;upregulates&quot;, &quot;downregulates&quot;, &quot;inhibits&quot;, &quot;downregulates&quot;, &quot;regulates&quot;, &quot;upregulates&quot;, &quot;binds&quot;]" />
+          <attvalue for="2" value="regulates" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
