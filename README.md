@@ -8,8 +8,7 @@ RAG system to assist researchers in finding new potential targets for Alzheimer'
 
 1. [Quick Start (App Launch)](#-quick-start)
 2. [Full Reproduction from Scratch](#-full-reproduction-from-scratch)
-3. [Project Structure](#-project-structure)
-4. [Technical Details](#-technical-details)
+3. [Technical Details](#-technical-details)
 
 ***
 
@@ -36,29 +35,23 @@ pip install -r requirements.txt
 python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
 ```
 
-
-### Step 2: Configure API Keys
-
-Create `.env` file in project root:
-
-```bash
-# .env
-PPLX_API_KEY=pplx-xxxxxxxxxxxxxxxxxxxxxx
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
-ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxxxxxxxxxxx
-PUBMED_EMAIL=your_email@example.com
-PUBMED_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxx  # optional
-```
-
-**Note:** At least one API key required (Perplexity, OpenAI, or Anthropic), but not all three.
-
-### Step 3: Launch Application
+### Step 2: Launch Application
 
 ```bash
 streamlit run app.py
 ```
 
 App opens in browser at `http://localhost:8501`
+
+### Step 3: Configure API Key in Interface
+
+API keys are configured directly in the app:
+
+1. Open sidebar **⚙️ API Configuration**
+2. Select LLM provider: **Perplexity**, **OpenAI**, or **Anthropic**
+3. **Paste your API key** in the input field
+4. Select model
+5. **Start asking questions!**
 
 ***
 
@@ -84,15 +77,26 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
 ```
 
 
+
 ### 2️⃣ Configuration
 
-Create `.env` file (see example above) with your API keys.
+Create `.env` file in project root:
+
+```shell
+# .env
+PPLX_API_KEY=pplx-xxxxxxxxxxxxxxxxxxxxxx
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
+ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxxxxxxxxxxx
+PUBMED_EMAIL=your_email@example.com
+PUBMED_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxx  # optional
+```
+
+**Note:** At least one API key required (Perplexity, OpenAI, or Anthropic), but not all three.
 
 **Required:**
 
 - `PUBMED_EMAIL` — your email for PubMed API
-- `PPLX_API_KEY` (or other LLM provider)
-
+- Any `*_API_KEY`
 
 ### 3️⃣ Data Collection from PubMed
 
